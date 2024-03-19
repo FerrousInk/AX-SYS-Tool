@@ -40,7 +40,7 @@
 
 echo ///// Version 1.0
 echo ////
-echo ///        X-SYS Tool V1
+echo ///        AX-SYS Tool V1
 echo //
 echo / Made by FerrousInk
 
@@ -81,14 +81,14 @@ if exist "%localappdata%\Microsoft\WinGet\Packages\Rufus.Rufus_Microsoft.Winget.
 if not exist "%localappdata%\Microsoft\WinGet\Packages\Rufus.Rufus_Microsoft.Winget.Source_8wekyb3d8bbwe\rufus.exe" goto :rufus-not-installed
 
 :after-rufus
-if exist %userprofile%\Desktop\X-SYS-Tool.bat del %userprofile%\Desktop\X-SYS-Tool.bat
+if exist "%userprofile%\Desktop\AX-SYS ISO Builder.bat" del "%userprofile%\Desktop\AX-SYS ISO Builder.bat"
 echo [ + ] Installing Script
-copy files.zip %appdata%\X-SYS.temp.zip
-curl -o "%userprofile%\Desktop\X-SYS-Tool.bat" "http://stinkpi.local/x-sys/tool.txt"
-curl -o "%appdata%\X-SYS.temp.zip" "http://stinkpi.local/x-sys/files.zip"
-mkdir %appdata%\X-SYS
-powershell.exe -Command Expand-Archive -Force "%appdata%\X-SYS.temp.zip" "%appdata%\X-SYS"
-del "%appdata%\X-SYS.temp.zip"
+copy files.zip %appdata%\AX-SYS.temp.zip
+curl -o "%userprofile%\Desktop\AX-SYS ISO Builder.bat" "link missing"
+curl -o "%appdata%\AX-SYS.temp.zip" "link missing"
+mkdir %appdata%\AX-SYS
+powershell.exe -Command Expand-Archive -Force "%appdata%\AX-SYS.temp.zip" "%appdata%\AX-SYS"
+del "%appdata%\AX-SYS.temp.zip"
 if not exist "%userprofile%\Desktop\X-SYS-Tool.bat" goto offline-install
 if exist "%userprofile%\Desktop\X-SYS-Tool.bat" goto install-finished
 :offline-install

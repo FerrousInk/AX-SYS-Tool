@@ -1,2 +1,2 @@
 # AX-SYS-Tool
-Desc.
+Im too lazy to type rn

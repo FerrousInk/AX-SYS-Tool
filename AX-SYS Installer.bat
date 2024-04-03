@@ -82,19 +82,30 @@ if not exist "%localappdata%\Microsoft\WinGet\Packages\Rufus.Rufus_Microsoft.Win
 if exist "%userprofile%\Desktop\AX-SYS ISO Builder.bat" del "%userprofile%\Desktop\AX-SYS ISO Builder.bat"
 echo [ + ] Installing Script
 mkdir "%appdata%\AX-SYS"
-curl -o "%appdata%\AX-SYS.temp.7z" "https://raw.githubusercontent.com/FerrousInk/AX-SYS-Tool/main/files.7z"
+mkdir "%temp%\AX-SYS"
+curl -o "%temp%\AX-SYS\files_layer.7z" "https://raw.githubusercontent.com/FerrousInk/AX-SYS-Tool/main/files.7z"
 curl -o "%appdata%\AX-SYS\7zr.exe" "https://www.7-zip.org/a/7zr.exe"
-call "%appdata%\AX-SYS\7zr.exe" x "%appdata%\AX-SYS.temp.7z" -o"%appdata%\AX-SYS"
+call "%appdata%\AX-SYS\7zr.exe" x "%temp%\AX-SYS\files_layer.7z" -o"%temp%\AX-SYS"
+call "%appdata%\AX-SYS\7zr.exe" x "%temp%\AX-SYS\files.7z" -o"%appdata%\AX-SYS"
 del "%appdata%\AX-SYS.temp.7z"
 move "%appdata%\AX-SYS\iso_builder.txt" "%userprofile%\Desktop\AX-SYS ISO Builder.bat"
 if not exist "%userprofile%\Desktop\AX-SYS ISO Builder.bat" (goto offline-install) else (goto install-finished)
 :offline-install
-echo [ - ] Server not reachable!
-echo [ - ] Please connect to the internet to install latest version of the AX-SYS Tool
+echo [ - ]
+echo [ - ]
+echo [ - ]
+echo [ - ]
+echo [ - ]
+echo [ - ] Server not reachable! Please connect to the internet to install latest version of the AX-SYS Tool. This might also be a different error.
 pause
 exit
 
 :install-finished
+echo [ - ]
+echo [ - ]
+echo [ - ]
+echo [ - ]
+echo [ - ]
 echo [ + ] Install Finished!
 pause
 exit

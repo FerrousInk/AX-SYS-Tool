@@ -84,10 +84,10 @@ echo [ + ] Installing Script
 mkdir "%appdata%\AX-SYS"
 mkdir "%temp%\AX-SYS"
 curl -o "%temp%\AX-SYS\files_layer.7z" "https://raw.githubusercontent.com/FerrousInk/AX-SYS-Tool/main/files.7z"
-curl -o "%appdata%\AX-SYS\7zr.exe" "https://www.7-zip.org/a/7zr.exe"
-call "%appdata%\AX-SYS\7zr.exe" x "%temp%\AX-SYS\files_layer.7z" -o"%temp%\AX-SYS"
-call "%appdata%\AX-SYS\7zr.exe" x "%temp%\AX-SYS\files.7z" -o"%appdata%\AX-SYS"
-del "%appdata%\AX-SYS.temp.7z"
+curl -o "%temp%\AX-SYS\7zr.exe" "https://www.7-zip.org/a/7zr.exe"
+call "%temp%\AX-SYS\7zr.exe" x "%temp%\AX-SYS\files_layer.7z" -o"%temp%\AX-SYS"
+call "%temp%\AX-SYS\7zr.exe" x "%temp%\AX-SYS\files.7z" -o"%appdata%\AX-SYS"
+rmdir /s /q "%temp%\AX-SYS"
 move "%appdata%\AX-SYS\iso_builder.txt" "%userprofile%\Desktop\AX-SYS ISO Builder.bat"
 if not exist "%userprofile%\Desktop\AX-SYS ISO Builder.bat" (goto offline-install) else (goto install-finished)
 :offline-install

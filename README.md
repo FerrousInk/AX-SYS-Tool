@@ -1,2 +1,2 @@
 # AX-SYS-Tool
-Im too lazy to type rn
+Creator is not responsible for any damage caused by the AX-SYS-Tool

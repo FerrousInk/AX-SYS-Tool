@@ -10,5 +10,5 @@
 
 
 ### Information:
-- Source Code of the Builder is in the release, do to the boot.wim file being to large.
+- If you clone the Repository you will get the Code for the AX-SYS.exe, Any of the Batch Files are only available in the releases.
 - All Windows PE Related files are from Microsoft's Windows Assesment and Deployment Kit.

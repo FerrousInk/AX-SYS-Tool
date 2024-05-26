@@ -1,0 +1,14 @@
+C:\Users\moaug\source\repos\AX-SYS\bin\Release\AX-SYS.exe.config
+C:\Users\moaug\source\repos\AX-SYS\bin\Release\AX-SYS.exe
+C:\Users\moaug\source\repos\AX-SYS\bin\Release\AX-SYS.pdb
+C:\Users\moaug\source\repos\AX-SYS\obj\Release\AX-SYS.csproj.AssemblyReference.cache
+C:\Users\moaug\source\repos\AX-SYS\obj\Release\AX-SYS.csproj.CoreCompileInputs.cache
+C:\Users\moaug\source\repos\AX-SYS\obj\Release\AX-SYS.exe
+C:\Users\moaug\source\repos\AX-SYS\obj\Release\AX-SYS.pdb
+C:\Users\moaug\OneDrive\.Projects\AX-SYS\C# Project\bin\Release\AX-SYS.exe.config
+C:\Users\moaug\OneDrive\.Projects\AX-SYS\C# Project\bin\Release\AX-SYS.exe
+C:\Users\moaug\OneDrive\.Projects\AX-SYS\C# Project\bin\Release\AX-SYS.pdb
+C:\Users\moaug\OneDrive\.Projects\AX-SYS\C# Project\obj\Release\AX-SYS.csproj.AssemblyReference.cache
+C:\Users\moaug\OneDrive\.Projects\AX-SYS\C# Project\obj\Release\AX-SYS.csproj.CoreCompileInputs.cache
+C:\Users\moaug\OneDrive\.Projects\AX-SYS\C# Project\obj\Release\AX-SYS.exe
+C:\Users\moaug\OneDrive\.Projects\AX-SYS\C# Project\obj\Release\AX-SYS.pdb

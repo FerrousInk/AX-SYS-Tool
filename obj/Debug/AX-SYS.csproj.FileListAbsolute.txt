@@ -1,0 +1,7 @@
+C:\Users\moaug\source\repos\AX-SYS\bin\Debug\AX-SYS.exe.config
+C:\Users\moaug\source\repos\AX-SYS\bin\Debug\AX-SYS.exe
+C:\Users\moaug\source\repos\AX-SYS\bin\Debug\AX-SYS.pdb
+C:\Users\moaug\source\repos\AX-SYS\obj\Debug\AX-SYS.csproj.AssemblyReference.cache
+C:\Users\moaug\source\repos\AX-SYS\obj\Debug\AX-SYS.csproj.CoreCompileInputs.cache
+C:\Users\moaug\source\repos\AX-SYS\obj\Debug\AX-SYS.exe
+C:\Users\moaug\source\repos\AX-SYS\obj\Debug\AX-SYS.pdb

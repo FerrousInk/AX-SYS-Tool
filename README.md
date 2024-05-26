@@ -1,12 +1,12 @@
 # AX-SYS-Tool
-Creator is not responsible for any damage caused by the AX-SYS-Tool
+## Creator is not responsible for any damage caused by the AX-SYS-Tool
 
+Installation:
+  ISO
+    -Flash the ISO on your USB
+    -Boot from the USB
+  Builder
+    -Download the Builder.zip from the latest release
 
-Install Guide:
-1. Download Installer from latest release
-2. Execute the Installer and wait for installation to finish
-3. Execute "AX-SYS ISO Builder.bat" on the Desktop
-4. Edit Scripts at: "%appdata%\Roaming\AX-SYS\" and execute "AX-SYS ISO Builder.bat" again
-
-
-AX-SYS Semi Portable still needs the WindowsADK & ADKPEAddon
+Source Code of the Builder is in the release, do to the boot.wim file being to large.
+All Windows PE Related files are from Microsoft's Windows Assesment and Deployment Kit.

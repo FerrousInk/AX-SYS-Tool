@@ -12,3 +12,7 @@ C:\Users\moaug\OneDrive\.Projects\AX-SYS\C# Project\obj\Release\AX-SYS.csproj.As
 C:\Users\moaug\OneDrive\.Projects\AX-SYS\C# Project\obj\Release\AX-SYS.csproj.CoreCompileInputs.cache
 C:\Users\moaug\OneDrive\.Projects\AX-SYS\C# Project\obj\Release\AX-SYS.exe
 C:\Users\moaug\OneDrive\.Projects\AX-SYS\C# Project\obj\Release\AX-SYS.pdb
+C:\Users\moaug\OneDrive\.Projects\AX-SYS\C# Project\bin\Release\AX-SYS.exe.manifest
+C:\Users\moaug\OneDrive\.Projects\AX-SYS\C# Project\bin\Release\AX-SYS.application
+C:\Users\moaug\OneDrive\.Projects\AX-SYS\C# Project\obj\Release\AX-SYS.exe.manifest
+C:\Users\moaug\OneDrive\.Projects\AX-SYS\C# Project\obj\Release\AX-SYS.application

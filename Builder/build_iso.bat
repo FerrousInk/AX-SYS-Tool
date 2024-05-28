@@ -18,8 +18,7 @@ goto finish
 
 :no_boot.wim_error
 echo ERROR: boot.wim missing! (Download from latest release)
-pause
-echo on
+goto finish
 
 :finish
 pause

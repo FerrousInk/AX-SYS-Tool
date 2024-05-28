@@ -1,0 +1,9 @@
+1. Edit Boot & Scripts Directory to change script executed at exploit point
+
+2. Run AX-SYS.exe as Administrator (<-- Dont forget that)
+
+
+
+
+
+Any Windows PE Related files are from Microsoft's Assesment and Deployment Kit!

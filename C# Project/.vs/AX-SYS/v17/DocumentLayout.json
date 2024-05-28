@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\moaug\\OneDrive\\.Projects\\AX-SYS\\C# Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7FA45826-796A-49E8-B061-B135580B8B2C}|AX-SYS.csproj|c:\\users\\moaug\\onedrive\\.projects\\ax-sys\\c# project\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7FA45826-796A-49E8-B061-B135580B8B2C}|AX-SYS.csproj|solutionrelative:app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "app.manifest",
+              "DocumentMoniker": "C:\\Users\\moaug\\OneDrive\\.Projects\\AX-SYS\\C# Project\\app.manifest",
+              "RelativeDocumentMoniker": "app.manifest",
+              "ToolTip": "C:\\Users\\moaug\\OneDrive\\.Projects\\AX-SYS\\C# Project\\app.manifest",
+              "RelativeToolTip": "app.manifest",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2024-05-28T17:24:02.802Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

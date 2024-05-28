@@ -1,4 +1,5 @@
 @echo off
+if not exist winpe_image\media\sources\boot.wim goto no_boot.wim_error
 dism /cleanup-wim
 rmdir build /s /q
 mkdir build
@@ -13,3 +14,13 @@ set BOOTDATA=2#p0,e,b"build\fwfiles\etfsboot.com"#pEF,e,b"build\fwfiles\efisys.b
 ms_oscdimg -bootdata:%BOOTDATA% -u1 -udfver102 "build\media" "build\AXSYS.iso"
 xcopy "%cd%\build\AXSYS.iso" "AX-SYS.iso" /Y /-I
 rmdir "%cd%\build" /s /q
+goto finish
+
+:no_boot.wim_error
+echo ERROR: boot.wim missing! (Download from latest release)
+pause
+echo on
+
+:finish
+pause
+echo on

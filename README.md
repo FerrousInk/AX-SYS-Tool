@@ -12,3 +12,4 @@
 ### Information:
 - If you clone the Repository you will get the Code for the AX-SYS.exe, Any of the Batch Files are only available in the releases.
 - All Windows PE Related files are from Microsoft's Windows Assesment and Deployment Kit.
+- THE BOOT.WIM NEEDED FOR WINDOWS PE IS TO LARGE FOR GITHUB, DOWNLOAD THE LATEST FROM RELEASES AND MOVE IT INTO "AX-SYS\winpe_image\media\sources\boot.wim" <-- `xcopy /-I /Y PathToBoot.Wim\boot.wim PathToAX-SYS\winpe_image\media\sources\boot.wim`

@@ -5,6 +5,7 @@ rmdir build /s /q
 mkdir build
 xcopy /herky winpe_image\* build\
 xcopy /E /Y "Boot\*" "%cd%\build\media"
+del "%cd%\build\mount\readme.txt"
 dism /Mount-Image /ImageFile:"%cd%\build\media\sources\boot.wim" /index:1 /MountDir:"%cd%\build\mount"
 xcopy /E /Y "Scripts\*" "%cd%\build\mount\"
 xcopy "%cd%\build\mount\Windows\Boot\EFI\bootmgr.efi" "%cd%\build\media\bootmgr.efi" /Y

@@ -8,10 +8,10 @@ namespace AX_SYS
     {
         static void Main()
         {
-            string args = @"/c echo start
+            string args = @"/c
             dism /cleanup-wim
-            pause
-            ";
+            pause";
+
             Process Builder = new Process();
             Builder.StartInfo.FileName = "cmd.exe";
             Builder.StartInfo.Arguments = args;

@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 using System.IO;
 using System.Xml;
 
@@ -8,6 +8,7 @@ namespace AX_SYS
     {
         static void Main()
         {
+            string args @=
             Process Builder = new Process();
             Builder.StartInfo.FileName = "cmd.exe";
             Builder.StartInfo.Arguments = "/c build_iso.bat";

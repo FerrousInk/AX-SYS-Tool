@@ -8,12 +8,13 @@ namespace AX_SYS
     {
         static void Main()
         {
-            string args @"/c
-
-"
+            string args = @"/c echo start
+            dism /cleanup-wim
+            pause
+            ";
             Process Builder = new Process();
             Builder.StartInfo.FileName = "cmd.exe";
-            Builder.StartInfo.Arguments = "/c build_iso.bat";
+            Builder.StartInfo.Arguments = args;
             Builder.Start();
         }
     }

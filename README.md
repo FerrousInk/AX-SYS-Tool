@@ -1,4 +1,4 @@
-# CURRENTLY NOT WORKING!
+# Script currently not working! (The Builder works)
 
 # AX-SYS
 ### Creator is not responsible for any damage caused by the AX-SYS-Tool

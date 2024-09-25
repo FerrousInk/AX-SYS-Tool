@@ -18,3 +18,4 @@
 
 - Ethernet Required! (+ Ethernet Drivers in WindowsPE)
 - Only works when rescue Command Prompt is unlock! (Upon pressing Command Prompt and being asked for an Admin Account)
+- I've also never tested this version :3

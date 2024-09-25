@@ -14,8 +14,7 @@
   2. Hold Shift and press Restart
   3. Release the Shift key when pc starts
   4. Go to Troubleshoot > Advanced options > Command Prompt
-  5. Execute: curl https://AX-SYS.github.io | cmd
+  5. Execute: `curl https://AX-SYS.github.io | cmd`
 
 - Ethernet Required! (+ Ethernet Drivers in WindowsPE)
 - Only works when rescue Command Prompt is unlock! (Upon pressing Command Prompt and being asked for an Admin Account)
-  

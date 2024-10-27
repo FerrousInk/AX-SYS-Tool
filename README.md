@@ -1,5 +1,5 @@
 # AX-SYS
-### Creator is not responsible for any damage caused by the AX-SYS-Tool
+### Use at your own risk!
 
 ## Installation: (For more information read "How to use")
   1. Download Builder
